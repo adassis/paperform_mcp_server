@@ -8,7 +8,8 @@ from tools import (
     list_forms,
     get_form,
     list_form_fields,
-    list_form_submissions
+    list_form_submissions,
+    get_submission        
 )
 
 # ── Initialisation ─────────────────────────────────────────────
@@ -23,6 +24,7 @@ mcp.tool()(list_forms)
 mcp.tool()(get_form)
 mcp.tool()(list_form_fields)
 mcp.tool()(list_form_submissions)
+mcp.tool()(get_submission) 
 
 # ── Middleware d'authentification ──────────────────────────────
 class BearerAuthMiddleware(BaseHTTPMiddleware):
