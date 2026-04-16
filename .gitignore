@@ -1,0 +1,11 @@
+# Ne jamais envoyer les variables d'environnement sur GitHub !
+.env
+
+# Fichiers Python compilés (inutiles sur le serveur)
+__pycache__/
+*.pyc
+*.pyo
+
+# Environnement virtuel local (trop lourd, inutile sur Railway)
+venv/
+env/
