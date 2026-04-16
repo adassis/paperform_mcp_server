@@ -26,8 +26,7 @@ from tools import (
 # ================================================================
 
 mcp = FastMCP(
-    name="Paperform MCP Server",
-    description="Serveur MCP pour interagir avec l'API Paperform. Permet de lister les formulaires, leurs champs et leurs soumissions."
+    name="Paperform MCP Server"
 )
 
 
